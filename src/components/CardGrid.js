@@ -5,10 +5,21 @@ import maths from "../img/maths.png";
 import { StyledCard, StyledCardHeader, StyledCardBody } from "../styles";
 //Import icons
 import { FaGithub, FaDesktop } from "react-icons/fa";
+//Import components
+import CardItem from "./CardItem";
 
-const Card = () => {
+const Cards = ({ cardInfo }) => {
   return (
     <div>
+      <div>
+        {cardInfo.map((item) => (
+          <>
+            <CardItem key={item.id} item={item}></CardItem>
+            <img src={item.image} alt="" />
+          </>
+        ))}
+      </div>
+
       <StyledCard whileHover={{ scale: 1.08 }}>
         <StyledCardHeader>
           <img src={pomodoro} alt="Pomodoro Screen Grab" />
@@ -47,4 +58,4 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default Cards;

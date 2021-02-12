@@ -1,4 +1,5 @@
 //Global Style
+import React, { useState } from "react";
 import GlobalStyle from "./components/GlobalStyle";
 //Import Pages
 import AboutUs from "./pages/AboutUs";
@@ -9,9 +10,13 @@ import Portfolio from "./pages/Portfolio";
 import { Switch, Route, useLocation } from "react-router-dom";
 //Animation
 import { AnimatePresence } from "framer-motion";
+//Import util
+import data from "./util";
 
 function App() {
   const location = useLocation();
+  //State
+  const [cardInfo, setCardInfo] = useState(data());
   return (
     <div className="App">
       <GlobalStyle />
@@ -22,8 +27,8 @@ function App() {
             <AboutUs />
           </Route>
           <Route path="/portfolio">
-            <Portfolio />
-          </Route>
+            <Portfolio cardInfo={cardInfo} />
+          </Route>  
           <Route path="/contact">
             <ContactMe />
           </Route>

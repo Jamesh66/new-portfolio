@@ -16,10 +16,9 @@ import { FaGithub, FaDesktop } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { pageAnimation, container, item } from "../Animation";
 //Import components
-import Card from "../components/Card";
+import Card from "../components/CardGrid";
 
-const PortfolioSection = () => {
-
+const PortfolioSection = ({ cardInfo }) => {
   return (
     <StyledServices>
       <StyledDescription
@@ -37,9 +36,8 @@ const PortfolioSection = () => {
           animate="visible"
         >
           <div className="background"></div>
-          <Card/>
+          <Card cardInfo={cardInfo} />
           <div className="background"></div>
-          <Card />
         </StyledContainer>
       </StyledDescription>
     </StyledServices>

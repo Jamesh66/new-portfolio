@@ -2,14 +2,8 @@
 import { FaPhoneAlt, FaEnvelope, FaLinkedin } from "react-icons/fa";
 //Import styling
 import styled from "styled-components";
-import {
-  StyledAbout,
-  StyledServices,
-  StyledDescription,
-  StyledContainer,
-} from "../styles";
+import { StyledServices, StyledDescription, StyledContainer } from "../styles";
 //Animations
-import { motion } from "framer-motion";
 import { pageAnimation } from "../Animation";
 //Import Material ui Compoents
 import { TextField } from "@material-ui/core/";
@@ -71,7 +65,6 @@ const contactSection = () => {
               type="Text"
               label="Name"
               placeholder="Name"
-              color="secondary"
               color="#23d997"
             />
             <TextField
