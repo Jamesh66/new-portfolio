@@ -36,9 +36,6 @@ const PortfolioSection = () => {
           <div className="background">
             <StyledCard
               whileHover={{ scale: 1.08 }}
-              variants={item}
-              initial="hidden"
-              animate="show"
             >
               <StyledCardHeader>
                 <img src={pomodoro} alt="Pomodoro Screen Grab" />
@@ -77,9 +74,6 @@ const PortfolioSection = () => {
           <div className="background">
             <StyledCard
               whileHover={{ scale: 1.08 }}
-              variants={item}
-              initial="hidden"
-              animate="show"
             >
               <StyledCardHeader>
                 <img src={maths} alt="Mr Carter Maths Screen Grab" />
