@@ -7,7 +7,7 @@ function cardInfo() {
   return [
     {
       title: "Pomodoro Timer",
-      image: { pomodoro },
+      img: { pomodoro },
       text:
         "A web app that provides a countdown timer to help the user increase their focus over a specified period. A bell sound is played once the timer is finished and a notification is displayed on the screen. Made with Vanilla JavaScript.",
       LiveLink: "https://pomodorobyjames.com/",
@@ -16,9 +16,9 @@ function cardInfo() {
     },
     {
       title: "Mr Carter Maths",
-      image: { maths },
+      img: { maths },
       text:
-        "A web app that provides a countdown timer to help the user increase their focus over a specified period. A bell sound is played once the timer is finished and a notification is displayed on the screen. Made with Vanilla JavaScript.",
+        "A landing page I created for a family member using Materialize, the design was based on an existing design but modernized to creae a more user firendly experiance while retaining brand identiy to keep conintity with other sites within the brand.",
       LiveLink: "https://mrcartermaths.com/",
       GitLink: "https://github.com/Jamesh66?tab=repositories",
       id: uuidv4(),

@@ -1,22 +1,9 @@
-//Import screenshots
-import pomodoro from "../img/pomodoro.png";
-import maths from "../img/maths.png";
 //Styles
-import {
-  StyledServices,
-  StyledDescription,
-  StyledContainer,
-  StyledCard,
-  StyledCardHeader,
-  StyledCardBody,
-} from "../styles";
-//Import icons
-import { FaGithub, FaDesktop } from "react-icons/fa";
+import { StyledServices, StyledDescription, StyledContainer } from "../styles";
 //Animations
-import { motion } from "framer-motion";
-import { pageAnimation, container, item } from "../Animation";
+import { pageAnimation, container} from "../Animation";
 //Import components
-import Card from "../components/CardGrid";
+import Cards from "../components/CardGrid";
 
 const PortfolioSection = ({ cardInfo }) => {
   return (
@@ -35,9 +22,7 @@ const PortfolioSection = ({ cardInfo }) => {
           initial="hidden"
           animate="visible"
         >
-          <div className="background"></div>
-          <Card cardInfo={cardInfo} />
-          <div className="background"></div>
+          <Cards cardInfo={cardInfo} />
         </StyledContainer>
       </StyledDescription>
     </StyledServices>

@@ -16,7 +16,7 @@ import data from "./util";
 function App() {
   const location = useLocation();
   //State
-  const [cardInfo, setCardInfo] = useState(data());
+  const [ cardInfo ] = useState(data());
   return (
     <div className="App">
       <GlobalStyle />
@@ -28,7 +28,7 @@ function App() {
           </Route>
           <Route path="/portfolio">
             <Portfolio cardInfo={cardInfo} />
-          </Route>  
+          </Route>
           <Route path="/contact">
             <ContactMe />
           </Route>
