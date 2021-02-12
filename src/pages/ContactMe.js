@@ -88,6 +88,7 @@ const contactSection = () => {
               type="Text"
               multiline
               rowsMax={6}
+              cols="50"
               label="Message"
               placeholder="Message"
               color="#23d997"
