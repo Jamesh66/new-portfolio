@@ -1,13 +1,14 @@
 import CardItem from "./CardItem";
+import { StyledContainer } from "../styles";
 
 const Cards = ({ cardInfo }) => {
   return (
     <div>
-      <div>
+      <StyledContainer>
         {cardInfo.map((item) => (
           <CardItem key={item.id} item={item}></CardItem>
         ))}
-      </div>
+      </StyledContainer>
     </div>
   );
 };

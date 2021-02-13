@@ -29,9 +29,12 @@ export const StyledServices = styled(StyledAbout)`
 `;
 
 export const StyledContainer = styled(motion.div)`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  @media (max-width: 500px) {
+    grid-template-columns: (1fr);
+  }
 `;
 
 export const StyledCard = styled(motion.header)`
@@ -39,8 +42,6 @@ export const StyledCard = styled(motion.header)`
   border-radius: 10px;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  max-width: 500px;
-  flex: 0 1 calc(48% 1em);
   /* width: 500px; */
 `;
 
