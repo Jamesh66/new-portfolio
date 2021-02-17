@@ -7,7 +7,7 @@ function cardInfo() {
       img:
         "https://github.com/Jamesh66/new-portfolio/blob/main/src/img/pomodoro.png?raw=true",
       text:
-        "A web app that provides a countdown timer to help the user increase their focus over a specified period. A bell sound is played once the timer is finished and a notification is displayed on the screen. Made with Vanilla JavaScript.",
+        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis maiores saepe repellat perspiciatis neque. Mollitia, tempora ea ut quibusdam non porro nulla accusantium, nisi odio dignissimos, quod quae itaque cupiditate!",
       LiveLink: "https://pomodorobyjames.com/",
       GitLink: "https://github.com/Jamesh66/pomodoro.timer",
       id: uuidv4(),
@@ -17,7 +17,7 @@ function cardInfo() {
       img:
         "https://github.com/Jamesh66/new-portfolio/blob/main/src/img/maths.png?raw=true",
       text:
-        "A landing page I created for a family member using Materialize, the design was based on an existing design but modernized to creae a more user firendly experiance while retaining brand identiy to keep conintity with other sites within the brand.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi fuga modi possimus eligendi repudiandae eaque mollitia, consectetur aut quos quod ab, dolores, ipsa inventore beatae doloribus. Expedita, fugiat dolor!",
       LiveLink: "https://mrcartermaths.com/",
       GitLink: "https://github.com/Jamesh66?tab=repositories",
       id: uuidv4(),

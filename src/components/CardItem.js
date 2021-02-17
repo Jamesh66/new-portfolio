@@ -3,11 +3,13 @@ import React from "react";
 import { StyledCard, StyledCardHeader, StyledCardBody } from "../styles";
 //Import icons
 import { FaGithub, FaDesktop } from "react-icons/fa";
+//Import Animation
+import { fade, titleAnim } from "../Animation";
 
 const CardItem = ({ item }) => {
   return (
     <div>
-      <StyledCard whileHover={{ scale: 1.08 }}>
+      <StyledCard whileHover={{ scale: 1.08 }} variants={fade}>
         <StyledCardHeader>
           <img src={item.img} alt="Screengrab" />
         </StyledCardHeader>
@@ -17,7 +19,7 @@ const CardItem = ({ item }) => {
           <div className="user">
             <div className="links">
               <h5>
-                <a href={item.GitLink}>
+                <a target="_blank" href={item.GitLink}>
                   <i>
                     <FaGithub color="#66DA97" />
                   </i>
@@ -25,7 +27,7 @@ const CardItem = ({ item }) => {
                 </a>
               </h5>
               <h5>
-                <a href={item.LiveLink}>
+                <a target="_blank" href={item.LiveLink}>
                   <i>
                     <FaDesktop color="#49408C" />
                   </i>

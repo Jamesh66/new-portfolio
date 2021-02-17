@@ -48,7 +48,10 @@ const contactSection = () => {
                     <i>
                       <FaLinkedin color="#0B66C2" />
                     </i>
-                    <a href="https://www.linkedin.com/in/james-harrold-33446014b/">
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/in/james-harrold-33446014b/"
+                    >
                       LinkedIn
                     </a>
                   </h4>
@@ -65,7 +68,6 @@ const contactSection = () => {
               type="Text"
               label="Name"
               placeholder="Name"
-              color="#23d997"
             />
             <TextField
               className="TextField"
@@ -73,7 +75,6 @@ const contactSection = () => {
               type="email"
               label="Email"
               placeholder="name@email.com"
-              color="#23d997"
             />
             <TextField
               className="TextArea"
@@ -84,7 +85,6 @@ const contactSection = () => {
               cols="50"
               label="Message"
               placeholder="Message"
-              color="#23d997"
             />
             <button>Submit</button>
           </StyledForm>
@@ -135,23 +135,30 @@ const StyledForm = styled.form`
   h3 {
     font-size: 30px;
     padding-bottom: 1.5rem;
+    width: 100%;
   }
   display: flex;
   flex-wrap: wrap;
-  width: 50%;
+  width: 100%;
   justify-content: space-between;
-  .TextField {
-    width: 49%;
-    margin-bottom: 2%;
-    background-color: #121212;
-    color: white;
+  input {
+    color: white !important;
   }
-  .TextArea {
-    width: 100%;
-    margin-bottom: 4%;
-    background-color: #121212;
-    color: white;
-  }
+  
 `;
+
+// const StyledTextField = styled.input`
+//   width: 49%;
+//   margin-bottom: 2%;
+//   background-color: #121212;
+//   color: white;
+// `;
+
+// const StyledTextArea = styled.input`
+//   width: 100%;
+//   height: 25vh;
+//   margin-bottom: 4%;
+//   background-color: #121212;
+// `;
 
 export default contactSection;

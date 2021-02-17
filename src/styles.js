@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
 
-export const StyledAbout = styled.div`
+export const StyledAbout = styled(motion.div)`
   min-height: 90vh;
   display: flex;
   align-items: center;
@@ -12,7 +12,7 @@ export const StyledAbout = styled.div`
 
 export const StyledDescription = styled(motion.div)`
   flex: 1;
-  padding-right: 5rem;
+  /* padding-right: 5rem; */
   h2 {
     font-weight: lighter;
   }
@@ -31,9 +31,9 @@ export const StyledServices = styled(StyledAbout)`
 export const StyledContainer = styled(motion.div)`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-  @media (max-width: 500px) {
-    grid-template-columns: (1fr);
+  gap: 2rem;
+  @media (max-width: 1000px) {
+    grid-template-columns: 1fr;
   }
 `;
 
@@ -42,7 +42,6 @@ export const StyledCard = styled(motion.header)`
   border-radius: 10px;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  /* width: 500px; */
 `;
 
 export const StyledCardHeader = styled(motion.div)`
