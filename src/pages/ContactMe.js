@@ -5,8 +5,7 @@ import styled from "styled-components";
 import { StyledServices, StyledDescription, StyledContainer } from "../styles";
 //Animations
 import { pageAnimation } from "../Animation";
-//Import Material ui Compoents
-import { TextField } from "@material-ui/core/";
+
 const contactSection = () => {
   return (
     <StyledServices>
@@ -62,30 +61,9 @@ const contactSection = () => {
 
           <StyledForm action="" autoComplete="off">
             <h3>Or give my form a try...</h3>
-            <TextField
-              className="TextField"
-              variant="outlined"
-              type="Text"
-              label="Name"
-              placeholder="Name"
-            />
-            <TextField
-              className="TextField"
-              variant="outlined"
-              type="email"
-              label="Email"
-              placeholder="name@email.com"
-            />
-            <TextField
-              className="TextArea"
-              variant="outlined"
-              type="Text"
-              multiline
-              rowsMax={6}
-              cols="50"
-              label="Message"
-              placeholder="Message"
-            />
+            <StyledTextField type="text" placeholder="Name"></StyledTextField>
+            <StyledTextField type="email" placeholder="Email"></StyledTextField>
+            <StyledTextArea type="text" placeholder="Message"></StyledTextArea>
             <button>Submit</button>
           </StyledForm>
         </StyledContact>
@@ -97,7 +75,6 @@ const contactSection = () => {
 //Styled components
 
 const StyledContact = styled(StyledContainer)`
-  flex: wrap;
   padding-top: 4rem;
   padding-bottom: 10rem;
   h2 {
@@ -132,6 +109,7 @@ const StyledContact = styled(StyledContainer)`
 `;
 
 const StyledForm = styled.form`
+  position: relative;
   h3 {
     font-size: 30px;
     padding-bottom: 1.5rem;
@@ -141,24 +119,32 @@ const StyledForm = styled.form`
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-between;
-  input {
-    color: white !important;
-  }
-  
+  font: inherit;
 `;
 
-// const StyledTextField = styled.input`
-//   width: 49%;
-//   margin-bottom: 2%;
-//   background-color: #121212;
-//   color: white;
-// `;
+const StyledTextField = styled.input`
+  background: #121212;
+  padding: 10px 15px;
+  outline: none;
+  border: 0;
+  width: 49%;
+  margin-bottom: 2%;
+  color: white;
+  font-size: 18px;
+`;
 
-// const StyledTextArea = styled.input`
-//   width: 100%;
-//   height: 25vh;
-//   margin-bottom: 4%;
-//   background-color: #121212;
-// `;
+const StyledTextArea = styled.textarea`
+  background: #121212;
+  padding: 10px 15px;
+  outline: none;
+  border: 0;
+  width: 100%;
+  height: 25vh;
+  margin-bottom: 4%;
+  color: white;
+  padding: 10px 15px;
+  font-size: 18px !important;
+  font: inherit;
+`;
 
 export default contactSection;
