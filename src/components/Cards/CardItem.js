@@ -1,10 +1,10 @@
 import React from "react";
 //Import styles
-import { StyledCard, StyledCardHeader, StyledCardBody } from "../styles";
+import { StyledCard, StyledCardHeader, StyledCardBody } from "../../styles";
 //Import icons
 import { FaGithub, FaDesktop } from "react-icons/fa";
 //Import Animation
-import { fade, titleAnim } from "../Animation";
+import { fade } from "../../Animation";
 
 const CardItem = ({ item }) => {
   return (

@@ -8,6 +8,10 @@ export const StyledAbout = styled(motion.div)`
   justify-content: space-between;
   padding: 5rem 10rem;
   color: white;
+  @media (max-width: 1300px) {
+    display: block;
+    padding: 2rem 4rem;
+  }
 `;
 
 export const StyledDescription = styled(motion.div)`
@@ -32,7 +36,7 @@ export const StyledContainer = styled(motion.div)`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-  @media (max-width: 1000px) {
+  @media (max-width: 750px) {
     grid-template-columns: 1fr;
   }
 `;

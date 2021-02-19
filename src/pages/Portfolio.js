@@ -1,10 +1,10 @@
 //Styles
-import { StyledServices, StyledDescription, StyledContainer } from "../styles";
+import { StyledServices, StyledDescription } from "../styles";
 //Animations
 import { pageAnimation } from "../Animation";
 import { motion } from "framer-motion";
 //Import components
-import Cards from "../components/CardGrid";
+import Cards from "../components/Cards/CardGrid";
 
 const PortfolioSection = ({ cardInfo }) => {
   return (

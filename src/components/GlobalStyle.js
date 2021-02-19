@@ -8,14 +8,19 @@ const GlobalStyle = createGlobalStyle`
 }
 
 html{
-    @media (max-width:1000px){
+    @media (max-width:1100px){
         font-size: 80%;
     }
+    @media (max-width:1100px){
+        font-size: 70%;
+    }
+    height:100%;
 }
 
 body{
     background: #1b1b1b;
     font-family: 'Fira Sans', sans-serif;
+    height:100%;
 }
 
 button{

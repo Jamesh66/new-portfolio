@@ -50,6 +50,11 @@ const StyledNav = styled.nav`
     padding-left: 8rem;
     position: relative;
   }
+  @media (max-width: 768px) {
+    li {
+      display: none;
+    }
+  }
 `;
 
 export default Nav;
