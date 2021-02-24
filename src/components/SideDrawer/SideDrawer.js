@@ -45,10 +45,11 @@ const StyledSideDrawer = styled.nav`
     list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: top;
+    padding: 8rem 0;
   }
   li {
-    margin: 0.5rem 2rem;
+    margin: 1.5rem 2rem;
   }
   a {
     color: white;

@@ -51,6 +51,10 @@ const StyledNav = styled.nav`
     position: relative;
   }
   @media (max-width: 768px) {
+    flex-direction: column;
+    h1 {
+      padding-top: 1.5rem;
+    }
     li {
       display: none;
     }

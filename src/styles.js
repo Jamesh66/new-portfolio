@@ -8,9 +8,9 @@ export const StyledAbout = styled(motion.div)`
   justify-content: space-between;
   padding: 5rem 10rem;
   color: white;
-  @media (max-width: 1300px) {
+  @media (max-width: 1100px) {
     display: block;
-    padding: 2rem 4rem;
+    padding: 15rem 4rem;
   }
 `;
 
@@ -27,8 +27,15 @@ export const StyledHide = styled.div`
 `;
 
 export const StyledServices = styled(StyledAbout)`
+  padding: 1rem 10rem;
   h2 {
-    padding-bottom: 1.5rem;
+    padding: 1.5rem;
+  }
+  @media (max-width: 1100px) {
+    padding: 4rem 4rem;
+    h2 {
+      padding-top: 0;
+    }
   }
 `;
 

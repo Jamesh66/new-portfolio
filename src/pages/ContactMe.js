@@ -73,7 +73,6 @@ const contactSection = () => {
 };
 
 //Styled components
-
 const StyledContact = styled(StyledContainer)`
   padding-top: 4rem;
   padding-bottom: 10rem;
@@ -103,8 +102,8 @@ const StyledContact = styled(StyledContainer)`
     margin-right: 1em;
     font-size: 22px;
   }
-  .contact-info-container {
-    padding-top: 3rem;
+  @media (max-width: 750px) {
+    padding-top: 0;
   }
 `;
 
@@ -120,6 +119,9 @@ const StyledForm = styled.form`
   width: 100%;
   justify-content: space-between;
   font: inherit;
+  @media (max-width: 750px) {
+    padding-top: 1.5rem;
+  } ;
 `;
 
 const StyledTextField = styled.input`
