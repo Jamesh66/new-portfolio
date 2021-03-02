@@ -3,18 +3,36 @@ import { Link } from "react-router-dom";
 //Import Styled components
 import styled from "styled-components";
 import { bool } from "prop-types";
+import { useLocation } from "react-router-dom";
+import { motion } from "framer-motion";
 const SideDrawer = ({ open, setOpen }) => {
+  const { pathname } = useLocation();
   return (
     <StyledSideDrawer open={open}>
       <ul>
         <li>
           <Link to="/">About Me</Link>
+          <Line
+            transition={{ duration: 0.75 }}
+            initial={{ width: "0%" }}
+            animate={{ width: pathname === "/" ? "33%" : "0%" }}
+          />
         </li>
         <li>
           <Link to="/portfolio">My Portfolio</Link>
+          <Line
+            transition={{ duration: 0.75 }}
+            initial={{ width: "0%" }}
+            animate={{ width: pathname === "/portfolio" ? "43%" : "0%" }}
+          />
         </li>
         <li>
           <Link to="/contact">Contact Me</Link>
+          <Line
+            transition={{ duration: 0.75 }}
+            initial={{ width: "0%" }}
+            animate={{ width: pathname === "/contact" ? "40%" : "0%" }}
+          />
         </li>
       </ul>
     </StyledSideDrawer>
@@ -24,6 +42,14 @@ const SideDrawer = ({ open, setOpen }) => {
 SideDrawer.propTypes = {
   open: bool.isRequired,
 };
+
+const Line = styled(motion.div)`
+  height: 0.36rem;
+  background: #23a1d7;
+  width: 10%;
+  position: absolute;
+  left: 0%;
+`;
 
 export default SideDrawer;
 
@@ -50,6 +76,7 @@ const StyledSideDrawer = styled.nav`
   }
   li {
     margin: 1.5rem 2rem;
+    position: relative;
   }
   a {
     color: white;

@@ -1,7 +1,7 @@
 //Import Styled components
 import styled from "styled-components";
 //hamburger Icon
-import { Turn as Hamburger } from "hamburger-react";
+import { Squash as Hamburger } from "hamburger-react";
 //Prop types
 import { bool, func } from "prop-types";
 

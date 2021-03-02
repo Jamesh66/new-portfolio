@@ -28,13 +28,13 @@ button{
     font-size: 1.1rem;
     cursor: pointer;
     padding: 1rem 2rem;
-    border: 3px solid #23d997;
+    border: 3px solid #23A1D7;
     background:transparent;
     color:white;
     transition: all 0.5s ease;
     font-family: 'Fira Sans', sans-serif;
     &:hover{
-        background-color:#23d997;
+        background-color:#23A1D7;
         color: white;
     }
 }
@@ -47,7 +47,7 @@ h3{
 }
 span{
     font-weight:bold;
-    color: #23d997;
+    color: #23A1D7;
 }
 p{
     padding: 3rem 0rem;

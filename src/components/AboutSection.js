@@ -10,7 +10,9 @@ const AboutSection = () => {
       <StyledDescription>
         <motion.div>
           <StyledHide>
-            <motion.h2 variants={titleAnim}>Hi!</motion.h2>
+            <motion.h2 variants={titleAnim}>
+              Hi!
+            </motion.h2>
           </StyledHide>
           <StyledHide>
             <motion.h2 variants={titleAnim}>

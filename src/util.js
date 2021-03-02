@@ -19,7 +19,7 @@ function cardInfo() {
       text:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi fuga modi possimus eligendi repudiandae eaque mollitia, consectetur aut quos quod ab, dolores, ipsa inventore beatae doloribus. Expedita, fugiat dolor!",
       LiveLink: "https://mrcartermaths.com/",
-      GitLink: "https://github.com/Jamesh66?tab=repositories",
+      GitLink: "https://github.com/Jamesh66/mr-carter-maths/tree/main",
       id: uuidv4(),
     },
   ];

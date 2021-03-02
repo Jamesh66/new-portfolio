@@ -19,7 +19,7 @@ const CardItem = ({ item }) => {
           <div className="user">
             <div className="links">
               <h5>
-                <a target="_blank" href={item.GitLink}>
+                <a target="_blank" rel="noreferrer" href={item.GitLink}>
                   <i>
                     <FaGithub color="#66DA97" />
                   </i>
@@ -27,9 +27,9 @@ const CardItem = ({ item }) => {
                 </a>
               </h5>
               <h5>
-                <a target="_blank" href={item.LiveLink}>
+                <a target="_blank" rel="noreferrer" href={item.LiveLink}>
                   <i>
-                    <FaDesktop color="#49408C" />
+                    <FaDesktop color="#23A1D7" />
                   </i>
                   Visit The Site
                 </a>
