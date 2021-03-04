@@ -14,6 +14,7 @@ import {
   FaReact,
   FaGithub,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const AboutSection = () => {
   return (
@@ -29,22 +30,33 @@ const AboutSection = () => {
             </motion.h2>
           </StyledHide>
           <StyledHide>
-            <motion.p variants={fade}>
+            <motion.p variants={titleAnim}>
               I'm currently on the hunt for a position as a Junior Front End
               Developer. I'm a self taught developer with a whole host of skills
               including HTML 5, CSS, JavaScript and React. I’ve used this
-              skillset to create a variety of projects, which can be found in My
-              Portfolio.
+              skillset to create a variety of projects, which can be found in{" "}
+              <span>
+                <Link to="/portfolio">My Portfolio</Link>
+              </span>
+              .
             </motion.p>
-            <motion.p variants={fade}>
+          </StyledHide>
+          <StyledHide>
+            <motion.p variants={titleAnim}>
               I love development because I’m a problem solver and for me,
               nothing beats the satisfaction of creating a new app or solving a
               troublesome bug. I also love learning and I feel in the fast paced
               tech world, the learning never stops.
             </motion.p>
-            <motion.p variants={fade}>
-              In my spare time I love to keep active weather that’s riding my
-              bike or dragging my girlfriend on walks. Want to know more, head to the Contact Me page to get in touch?
+          </StyledHide>
+          <StyledHide>
+            <motion.p variants={titleAnim}>
+              I'm also a big fan of cycling, vintage cars and good food. Want to
+              know more? Head to the{" "}
+              <Link to="/contact">
+                <span>Contact Me</span>
+              </Link>{" "}
+              page to get in touch.
             </motion.p>
           </StyledHide>
           <StyledIcons variants={fade}>
@@ -87,7 +99,7 @@ const AboutSection = () => {
 
 export const StyledIcons = styled(motion.div)`
   ul {
-    padding: 2rem 5rem;
+    padding: 2rem 5rem 0.5rem 5rem;
     display: flex;
     flex-wrap: wrap;
     list-style: none;

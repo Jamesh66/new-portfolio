@@ -6,8 +6,12 @@ export const StyledAbout = styled(motion.div)`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem 10rem;
+  padding: 0.5rem 10rem 2rem 10rem;
   color: white;
+  a {
+    color: #23a1d7;
+    text-decoration: none;
+  }
   @media (max-width: 1100px) {
     display: block;
     padding: 10rem 4rem;

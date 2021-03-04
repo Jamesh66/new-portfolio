@@ -56,6 +56,9 @@ p{
     font-size: 1.2rem;
     line-height:150%;
 }
+a{
+        text-decoration: none;
+    }
 h4{
     font-weight:bold;
 }

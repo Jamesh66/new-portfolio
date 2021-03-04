@@ -78,6 +78,7 @@ const ContactSection = () => {
             placeholder="Email"
           ></StyledTextField>
           <StyledTextArea
+            spellcheck="true"
             name="message"
             type="text"
             placeholder="Message"
