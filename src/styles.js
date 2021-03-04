@@ -6,11 +6,15 @@ export const StyledAbout = styled(motion.div)`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5rem 10rem;
+  padding: 2rem 10rem;
   color: white;
   @media (max-width: 1100px) {
     display: block;
-    padding: 15rem 4rem;
+    padding: 10rem 4rem;
+  }
+  @media (max-width: 769px) {
+    display: block;
+    padding: 3rem 4rem;
   }
 `;
 

@@ -7,7 +7,7 @@ function cardInfo() {
       img:
         "https://github.com/Jamesh66/new-portfolio/blob/main/src/img/pomodoro.png?raw=true",
       text:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis maiores saepe repellat perspiciatis neque. Mollitia, tempora ea ut quibusdam non porro nulla accusantium, nisi odio dignissimos, quod quae itaque cupiditate!",
+        "A Pomodoro Timer I created using Vanilla JavaScript and The Materialize Front End Framework. I've since hosted the app with Netlify and currently use it on a daily basis to maintain high productivity.",
       LiveLink: "https://pomodorobyjames.com/",
       GitLink: "https://github.com/Jamesh66/pomodoro.timer",
       id: uuidv4(),
@@ -17,7 +17,7 @@ function cardInfo() {
       img:
         "https://github.com/Jamesh66/new-portfolio/blob/main/src/img/maths.png?raw=true",
       text:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi fuga modi possimus eligendi repudiandae eaque mollitia, consectetur aut quos quod ab, dolores, ipsa inventore beatae doloribus. Expedita, fugiat dolor!",
+        "An updated landing page I created for a family member using The Materialize Front End Framework. The landing page isn’t yet live due to technical difficulties in deployment unrelated to my design work.",
       LiveLink: "https://mrcartermaths.com/",
       GitLink: "https://github.com/Jamesh66/mr-carter-maths/tree/main",
       id: uuidv4(),

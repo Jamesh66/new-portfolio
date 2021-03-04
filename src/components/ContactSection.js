@@ -34,7 +34,9 @@ const ContactSection = () => {
                   <i>
                     <FaEnvelope color="#49408C" />
                   </i>
-                  james.harrold95@gmail.com
+                  <a href="mailto: james.harrold95@gmail.com">
+                    james.harrold95@gmail.com
+                  </a>
                 </h4>
               </div>
             </li>
