@@ -71,19 +71,18 @@ const ContactSection = () => {
           <StyledTextField
             name="contact v1"
             type="text"
-            placeholder="Name"
+            id="name"
           ></StyledTextField>
           <StyledTextField
             id="email"
             name="contact v1"
             type="email"
-            placeholder="Email"
           ></StyledTextField>
           <StyledTextArea
             spellcheck="true"
             name="contact v1"
             type="text"
-            placeholder="Message"
+            id="text"
           ></StyledTextArea>
           <div data-netlify-recaptcha="true"></div>
           <button type="submit">Submit</button>
