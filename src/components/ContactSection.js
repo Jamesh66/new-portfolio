@@ -61,7 +61,7 @@ const ContactSection = () => {
 
         <StyledForm
           name="contact v1"
-          method="post"
+          method="POST"
           data-netlify="true"
           onSubmit="submit"
           variants={fade}
@@ -69,19 +69,19 @@ const ContactSection = () => {
           <h3>Or give my form a try...</h3>
           <input type="hidden" name="form-name" value="contact v1" />
           <StyledTextField
-            name="name"
+            name="contact v1"
             type="text"
             placeholder="Name"
           ></StyledTextField>
           <StyledTextField
             id="email"
-            name="email"
+            name="contact v1"
             type="email"
             placeholder="Email"
           ></StyledTextField>
           <StyledTextArea
             spellcheck="true"
-            name="message"
+            name="contact v1"
             type="text"
             placeholder="Message"
           ></StyledTextArea>
