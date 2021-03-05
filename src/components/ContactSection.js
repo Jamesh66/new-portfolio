@@ -60,13 +60,14 @@ const ContactSection = () => {
         </div>
 
         <StyledForm
-          action="POST"
+          name="contact v1"
+          method="post"
           data-netlify="true"
-          data-netlify-recaptcha="true"
-          autoComplete="off"
+          onSubmit="submit"
           variants={fade}
         >
           <h3>Or give my form a try...</h3>
+          <input type="hidden" name="form-name" value="contact v1" />
           <StyledTextField
             name="name"
             type="text"

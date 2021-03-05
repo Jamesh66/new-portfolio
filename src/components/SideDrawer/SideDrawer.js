@@ -5,7 +5,7 @@ import styled from "styled-components";
 import { bool } from "prop-types";
 import { useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
-const SideDrawer = ({ open, setOpen }) => {
+const SideDrawer = ({ open }) => {
   const { pathname } = useLocation();
   return (
     <StyledSideDrawer open={open}>
