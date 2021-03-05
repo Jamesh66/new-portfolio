@@ -69,22 +69,22 @@ const ContactSection = () => {
           <h3>Or give my form a try...</h3>
           <input type="hidden" name="form-name" value="contact v1" />
           <StyledTextField
-            name="contact v1"
+            name="name"
             type="text"
-            placeholder="name"
+            placeholder="Name"
           ></StyledTextField>
           <StyledTextField
             id="email"
-            name="contact v1"
+            name="email"
             type="email"
-            placeholder="email"
+            placeholder="Email"
           ></StyledTextField>
           <StyledTextArea
             spellcheck="true"
-            name="contact v1"
+            name="message"
             type="text"
             id="text"
-            placeholder="message"
+            placeholder="Message"
           ></StyledTextArea>
           <button type="submit">Submit</button>
         </StyledForm>
