@@ -74,6 +74,7 @@ const ContactSection = () => {
             placeholder="Name"
           ></StyledTextField>
           <StyledTextField
+            id="email"
             name="email"
             type="email"
             placeholder="Email"
