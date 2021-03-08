@@ -67,7 +67,12 @@ const ContactSection = () => {
           variants={fade}
         >
           <h3>Or give my form a try...</h3>
-          <input type="hidden" name="form-name" value="contact v1" />
+          <input
+            type="hidden"
+            name="form-name"
+            action="/contact"
+            value="contact v1"
+          />
           <StyledTextField
             name="name"
             type="text"
