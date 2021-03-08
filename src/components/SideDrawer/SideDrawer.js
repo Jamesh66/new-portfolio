@@ -5,13 +5,15 @@ import styled from "styled-components";
 import { bool } from "prop-types";
 import { useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
-const SideDrawer = ({ open }) => {
+const SideDrawer = ({ open, setOpen }) => {
   const { pathname } = useLocation();
   return (
-    <StyledSideDrawer open={open}>
+    <StyledSideDrawer open={open} setOpen={setOpen}>
       <ul>
         <li>
-          <Link to="/">About Me</Link>
+          <Link to="/" onClick={() => setOpen(false)}>
+            About Me
+          </Link>
           <Line
             transition={{ duration: 0.75 }}
             initial={{ width: "0%" }}
@@ -19,7 +21,9 @@ const SideDrawer = ({ open }) => {
           />
         </li>
         <li>
-          <Link to="/portfolio">My Portfolio</Link>
+          <Link to="/portfolio" onClick={() => setOpen(false)}>
+            My Portfolio
+          </Link>
           <Line
             transition={{ duration: 0.75 }}
             initial={{ width: "0%" }}
@@ -27,7 +31,9 @@ const SideDrawer = ({ open }) => {
           />
         </li>
         <li>
-          <Link to="/contact">Contact Me</Link>
+          <Link to="/contact" onClick={() => setOpen(false)}>
+            Contact Me
+          </Link>
           <Line
             transition={{ duration: 0.75 }}
             initial={{ width: "0%" }}

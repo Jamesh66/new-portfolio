@@ -11,7 +11,9 @@ const CardItem = ({ item }) => {
     <div>
       <StyledCard whileHover={{ scale: 1.08 }} variants={fade}>
         <StyledCardHeader>
-          <img src={item.img} alt="Screengrab" />
+          <a target="_blank" rel="noreferrer" href={item.LiveLink}>
+            <img src={item.img} alt="Screengrab" />
+          </a>
         </StyledCardHeader>
         <StyledCardBody>
           <h3>{item.title}</h3>
