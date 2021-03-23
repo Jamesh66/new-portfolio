@@ -2,7 +2,7 @@ import React from "react";
 //Import styles
 import { StyledCard, StyledCardHeader, StyledCardBody } from "../../styles";
 //Import icons
-import { FaGithub, FaDesktop } from "react-icons/fa";
+import { FaGithub, FaDesktop, FaYoutube } from "react-icons/fa";
 //Import Animation
 import { fade } from "../../Animation";
 
@@ -22,18 +22,14 @@ const CardItem = ({ item }) => {
             <div className="links">
               <h5>
                 <a target="_blank" rel="noreferrer" href={item.GitLink}>
-                  <i>
-                    <FaGithub color="#66DA97" />
-                  </i>
+                  <i>{item.GitIcon}</i>
                   GitHub
                 </a>
               </h5>
               <h5>
                 <a target="_blank" rel="noreferrer" href={item.LiveLink}>
-                  <i>
-                    <FaDesktop color="#23A1D7" />
-                  </i>
-                  Visit The Site
+                  <i>{item.LiveIcon}</i>
+                  {item.LinkInfo}
                 </a>
               </h5>
             </div>

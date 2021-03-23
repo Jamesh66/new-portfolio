@@ -45,7 +45,6 @@ const Nav = () => {
 const Line = styled(motion.div)`
   height: 0.3rem;
   background: #23a1d7;
-
   width: 0%;
   position: absolute;
   left: 56%;
@@ -68,7 +67,7 @@ const StyledNav = styled.nav`
     display: flex;
     list-style: none;
   }
-  #logo {
+  #logo {    
     font-size: 1.5rem;
     font-family: "Courgette", cursive;
     font-weight: lighter;
