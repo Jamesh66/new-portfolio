@@ -31,7 +31,7 @@ function cardInfo() {
     {
       title: "Dev Ed Music Player",
       img:
-        "https://github.com/Jamesh66/new-portfolio/blob/main/src/img/maths.png?raw=true",
+        "https://raw.githubusercontent.com/Jamesh66/new-portfolio/main/src/img/music.png",
       text:
         "This music player was a project included in the Developed By Ed React course. ",
       LiveLink: "https://youtu.be/PPjlXRqOr2k",

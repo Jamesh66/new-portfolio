@@ -1,8 +1,6 @@
 import React from "react";
 //Import styles
 import { StyledCard, StyledCardHeader, StyledCardBody } from "../../styles";
-//Import icons
-import { FaGithub, FaDesktop, FaYoutube } from "react-icons/fa";
 //Import Animation
 import { fade } from "../../Animation";
 
@@ -22,13 +20,13 @@ const CardItem = ({ item }) => {
             <div className="links">
               <h5>
                 <a target="_blank" rel="noreferrer" href={item.GitLink}>
-                  <i>{item.GitIcon}</i>
+                  <span>{item.GitIcon}</span>
                   GitHub
                 </a>
               </h5>
               <h5>
                 <a target="_blank" rel="noreferrer" href={item.LiveLink}>
-                  <i>{item.LiveIcon}</i>
+                  <span>{item.LiveIcon}</span>
                   {item.LinkInfo}
                 </a>
               </h5>

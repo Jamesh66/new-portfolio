@@ -101,7 +101,7 @@ export const StyledCardBody = styled.div`
     color: #a9a9a8;
     margin: auto;
   }
-  i {
+  span {
     position: relative;
     top: 5px;
     display: inline-block;
