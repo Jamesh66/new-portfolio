@@ -33,7 +33,7 @@ function cardInfo() {
       img:
         "https://raw.githubusercontent.com/Jamesh66/new-portfolio/main/src/img/music.png",
       text:
-        "This music player was a project included in the Developed By Ed React course. ",
+        "This music player was a project included in the Developed By Ed React course. The player takes content from chillhop.com and plays it through the UI using React Hooks. The UI is styled using SASS.",
       LiveLink: "https://youtu.be/PPjlXRqOr2k",
       GitLink: "https://github.com/Jamesh66/dev-ed-music-player",
       LinkInfo: "Demo Video",
