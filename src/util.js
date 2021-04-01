@@ -21,10 +21,10 @@ function cardInfo() {
         "https://github.com/Jamesh66/new-portfolio/blob/main/src/img/maths.png?raw=true",
       text:
         "An updated landing page I created for a family member using The Materialize Front End Framework. The landing page isn’t yet live due to technical difficulties in deployment unrelated to my design work.",
-      LiveLink: "https://mrcartermaths.com/",
+      LiveLink: "https://youtu.be/iVETFjW9gqc",
       GitLink: "https://github.com/Jamesh66/mr-carter-maths/tree/main",
       LinkInfo: "Visit Site",
-      LiveIcon: <FaDesktop color="#3BA2D7" />,
+      LiveIcon: <FaYoutube color="#ED462F" />,
       GitIcon: <FaGithub color="#66DA97" />,
       id: uuidv4(),
     },
