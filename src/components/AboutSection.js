@@ -26,7 +26,7 @@ const AboutSection = () => {
           </StyledHide>
           <StyledHide>
             <motion.h2 variants={titleAnim}>
-              I'm <span>James</span>
+              I&apos;m <span>James</span>
             </motion.h2>
           </StyledHide>
           <StyledHide>
