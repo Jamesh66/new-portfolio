@@ -31,10 +31,11 @@ const AboutSection = () => {
           </StyledHide>
           <StyledHide>
             <motion.p variants={titleAnim}>
-              I'm currently on the hunt for a position as a Junior Front End
-              Developer. I'm a self taught developer with a whole host of skills
-              including HTML 5, CSS, JavaScript and React. I’ve used this
-              skillset to create a variety of projects, which can be found in{" "}
+              I&apos;m currently on the hunt for a position as a Junior Front
+              End Developer. I&apos;m a self taught developer with a whole host
+              of skills including HTML 5, CSS, JavaScript and React. I&apos;ve
+              used this skillset to create a variety of projects, which can be
+              found in{" "}
               <span>
                 <Link to="/portfolio">My Portfolio</Link>
               </span>
@@ -43,7 +44,7 @@ const AboutSection = () => {
           </StyledHide>
           <StyledHide>
             <motion.p variants={titleAnim}>
-              I love development because I’m a problem solver and for me,
+              I love development because I&apos;m a problem solver and for me,
               nothing beats the satisfaction of creating a new app or solving a
               troublesome bug. I also love learning and I feel in the fast paced
               tech world, the learning never stops.
@@ -51,8 +52,8 @@ const AboutSection = () => {
           </StyledHide>
           <StyledHide>
             <motion.p variants={titleAnim}>
-              I'm also a big fan of cycling, vintage cars and good food. Want to
-              know more? Head to the{" "}
+              I&apos;m also a big fan of cycling, vintage cars and good food.
+              Want to know more? Head to the{" "}
               <Link to="/contact">
                 <span>Contact Me</span>
               </Link>{" "}
