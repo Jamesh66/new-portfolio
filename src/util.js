@@ -44,13 +44,13 @@ function cardInfo() {
     {
       title: "Bad Mouth Baking",
       img:
-        "https://raw.githubusercontent.com/Jamesh66/new-portfolio/main/src/img/music.png",
+        "https://github.com/Jamesh66/new-portfolio/blob/main/src/img/badmouth.png?raw=true",
       text:
         "An e-commerce site I put together for a small baking company based in London. The site was constructed using the Bravada Wordpress theme and used the Woocomerce plugin to display products and handle payments",
       LiveLink: "https://badmouthbaking.com/",
       GitLink: "https://github.com/Jamesh66/bad-mouth-baking",
       LinkInfo: "Live Site",
-      LiveIcon: <FaYoutube color="#ED462F" />,
+      LiveIcon: <FaDesktop color="#3BA2D7" />,
       GitIcon: <FaGithub color="#66DA97" />,
       id: uuidv4(),
     },
