@@ -3,6 +3,19 @@ import { FaGithub, FaDesktop, FaYoutube } from "react-icons/fa";
 function cardInfo() {
   return [
     {
+      title: "Bad Mouth Baking",
+      img:
+        "https://github.com/Jamesh66/new-portfolio/blob/main/src/img/badmouth.png?raw=true",
+      text:
+        "An e-commerce site I put together for a small baking company based in London. The site was constructed using the Bravada Wordpress theme along with the WooCommerce plugin to display products and handle payments",
+      LiveLink: "https://badmouthbaking.com/",
+      GitLink: "https://github.com/Jamesh66/bad-mouth-baking",
+      LinkInfo: "Live Site",
+      LiveIcon: <FaDesktop color="#3BA2D7" />,
+      GitIcon: <FaGithub color="#66DA97" />,
+      id: uuidv4(),
+    },
+    {
       title: "Pomodoro Timer",
       img:
         "https://github.com/Jamesh66/new-portfolio/blob/main/src/img/pomodoro.png?raw=true",
@@ -38,19 +51,6 @@ function cardInfo() {
       GitLink: "https://github.com/Jamesh66/dev-ed-music-player",
       LinkInfo: "Demo Video",
       LiveIcon: <FaYoutube color="#ED462F" />,
-      GitIcon: <FaGithub color="#66DA97" />,
-      id: uuidv4(),
-    },
-    {
-      title: "Bad Mouth Baking",
-      img:
-        "https://github.com/Jamesh66/new-portfolio/blob/main/src/img/badmouth.png?raw=true",
-      text:
-        "An e-commerce site I put together for a small baking company based in London. The site was constructed using the Bravada Wordpress theme and used the Woocomerce plugin to display products and handle payments",
-      LiveLink: "https://badmouthbaking.com/",
-      GitLink: "https://github.com/Jamesh66/bad-mouth-baking",
-      LinkInfo: "Live Site",
-      LiveIcon: <FaDesktop color="#3BA2D7" />,
       GitIcon: <FaGithub color="#66DA97" />,
       id: uuidv4(),
     },
