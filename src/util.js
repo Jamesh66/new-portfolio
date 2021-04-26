@@ -24,7 +24,7 @@ function cardInfo() {
       LiveLink: "https://youtu.be/iVETFjW9gqc",
       GitLink: "https://github.com/Jamesh66/mr-carter-maths/tree/main",
       LinkInfo: "Demo Video",
-      LiveIcon: <FaYoutube color="#ED462F" />,
+      LiveIcon: <FaDesktop color="#3BA2D7" />,
       GitIcon: <FaGithub color="#66DA97" />,
       id: uuidv4(),
     },
@@ -37,6 +37,19 @@ function cardInfo() {
       LiveLink: "https://youtu.be/PPjlXRqOr2k",
       GitLink: "https://github.com/Jamesh66/dev-ed-music-player",
       LinkInfo: "Demo Video",
+      LiveIcon: <FaYoutube color="#ED462F" />,
+      GitIcon: <FaGithub color="#66DA97" />,
+      id: uuidv4(),
+    },
+    {
+      title: "Bad Mouth Baking",
+      img:
+        "https://raw.githubusercontent.com/Jamesh66/new-portfolio/main/src/img/music.png",
+      text:
+        "An e-commerce site I put together for a small baking company based in London. The site was constructed using the Bravada Wordpress theme and used the Woocomerce plugin to display products and handle payments",
+      LiveLink: "https://badmouthbaking.com/",
+      GitLink: "https://github.com/Jamesh66/bad-mouth-baking",
+      LinkInfo: "Live Site",
       LiveIcon: <FaYoutube color="#ED462F" />,
       GitIcon: <FaGithub color="#66DA97" />,
       id: uuidv4(),
