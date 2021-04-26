@@ -65,8 +65,8 @@ export const StyledCard = styled(motion.header)`
 
 export const StyledCardHeader = styled(motion.div)`
   img {
-    height: auto;
-    background-size: contain;
+    height: 100%;
+    width: 100%;
   }
 `;
 
