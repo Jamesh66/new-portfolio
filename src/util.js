@@ -7,7 +7,7 @@ function cardInfo() {
       img:
         "https://github.com/Jamesh66/new-portfolio/blob/main/src/img/badmouth.png?raw=true",
       text:
-        "An e-commerce site I put together for a small baking company based in London. The site was constructed using the Bravada Wordpress theme along with the WooCommerce plugin to display products and handle payments",
+        "An e-commerce site I put together for a small baking company based in London. The site was constructed using the Bravada Wordpress theme along with the WooCommerce plugin to display products and handle payments.",
       LiveLink: "https://badmouthbaking.com/",
       GitLink: "https://github.com/Jamesh66/bad-mouth-baking",
       LinkInfo: "Live Site",
@@ -44,7 +44,7 @@ function cardInfo() {
     {
       title: "Dev Ed Music Player",
       img:
-        "https://raw.githubusercontent.com/Jamesh66/new-portfolio/main/src/img/music.png",
+        "https://github.com/Jamesh66/new-portfolio/blob/main/src/img/music.png",
       text:
         "This music player was a project included in the Developed By Ed React course. The player takes content from chillhop.com and plays it through the UI using React Hooks. The UI is styled using SASS.",
       LiveLink: "https://youtu.be/PPjlXRqOr2k",

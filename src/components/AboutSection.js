@@ -88,7 +88,7 @@ const AboutSection = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://drive.google.com/file/d/1o4zNG4Za7mF92aF8u7tsFXv_AW64CfR9/view?usp=sharing"
+            href="https://drive.google.com/file/d/1EIoDPkySpEvAeK8XyOSAKB4xSiWsTJ4S/view?usp=sharing"
           >
             <motion.button variants={fade}>MY C.V.</motion.button>
           </a>
