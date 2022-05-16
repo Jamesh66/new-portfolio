@@ -13,6 +13,7 @@ import {
   FaBootstrap,
   FaReact,
   FaGithub,
+  FaWordpressSimple,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -75,7 +76,7 @@ const AboutSection = () => {
                 <FaJs color="#EFD830" />
               </li>
               <li>
-                <FaBootstrap color="#533B78" />
+                <FaWordpressSimple color="#533B78" />
               </li>
               <li>
                 <FaReact color="#5ED3F3" />
