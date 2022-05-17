@@ -10,7 +10,6 @@ import {
   FaCss3Alt,
   FaSass,
   FaJs,
-  FaBootstrap,
   FaReact,
   FaGithub,
   FaWordpressSimple,
@@ -32,11 +31,18 @@ const AboutSection = () => {
           </StyledHide>
           <StyledHide>
             <motion.p variants={titleAnim}>
-              I&apos;m currently on the hunt for a position as a Junior Front
-              End Developer. I&apos;m a self taught developer with a whole host
-              of skills including HTML 5, CSS, JavaScript and React. I&apos;ve
-              used this skillset to create a variety of projects, which can be
-              found in{" "}
+              I&apos;m a passionate Junior Front End Developer at{" "}
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://uphotel.agency/"
+              >
+                Up Hotel Agency
+              </a>
+              . I&apos;m a self taught developer with a whole host of skills
+              including HTML 5, CSS, Vanilla JavaScript, Wordpress, PHP and
+              React. I&apos;ve used this skillset to create a variety of
+              projects, which can be found in{" "}
               <span>
                 <Link to="/portfolio">My Portfolio</Link>
               </span>
@@ -46,9 +52,9 @@ const AboutSection = () => {
           <StyledHide>
             <motion.p variants={titleAnim}>
               I love development because I&apos;m a problem solver and for me,
-              nothing beats the satisfaction of creating a new app or solving a
-              troublesome bug. I also love learning and I feel in the fast paced
-              tech world, the learning never stops.
+              nothing beats the satisfaction of creating a new project or
+              solving a troublesome bug. I also love learning and I feel in the
+              fast paced tech world, the learning never stops.
             </motion.p>
           </StyledHide>
           <StyledHide>

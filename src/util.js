@@ -31,7 +31,7 @@ function cardInfo() {
       LiveLink: "https://youtu.be/iVETFjW9gqc",
       GitLink: "https://github.com/Jamesh66/mr-carter-maths/tree/main",
       LinkInfo: "Demo Video",
-      LiveIcon: <FaDesktop color="#3BA2D7" />,
+      LiveIcon: <FaYoutube color="#ED462F" />,
       GitIcon: <FaGithub color="#66DA97" />,
       id: uuidv4(),
     },

@@ -7,7 +7,7 @@ import { fade } from "../../Animation";
 const CardItem = ({ item }) => {
   return (
     <div>
-      <StyledCard whileHover={{ scale: 1.08 }} variants={fade}>
+      <StyledCard variants={fade}>
         <StyledCardHeader>
           <a target="_blank" rel="noreferrer" href={item.LiveLink}>
             <img src={item.img} alt="Screengrab" />
