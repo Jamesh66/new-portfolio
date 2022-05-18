@@ -17,7 +17,7 @@ function cardInfo() {
       title: "Pomodoro Timer",
       img: "https://github.com/Jamesh66/new-portfolio/blob/main/src/img/pomodoro.png?raw=true",
       text: "A Pomodoro Timer I created using Vanilla JavaScript and The Materialize Front End Framework. I've since hosted the app with Netlify and currently use it on a daily basis to maintain high productivity.",
-      LiveLink: "https://pomodorobyjames.com/",
+      LiveLink: "https://inspiring-habit-2289a6.netlify.app",
       GitLink: "https://github.com/Jamesh66/pomodoro.timer",
       LinkInfo: "Visit Site",
       LiveIcon: <FaDesktop color="#3BA2D7" />,
